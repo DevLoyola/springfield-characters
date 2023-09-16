@@ -25,16 +25,21 @@
 /* Style for the character card */
 .character-card {
   background-color: #fff; /* Background color for the character card */
-  padding: 40px;
+  padding: 20px; /* Reduced padding for a shorter card */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
   text-align: center;
   max-width: 300px; /* Adjust the maximum width as needed */
+  max-height: 500px; /* Set a maximum height to fit on the screen */
   margin: 20px; /* Add margin for spacing between cards */
+  overflow: auto; /* Add overflow to handle content that exceeds the card height */
 }
+
+
+
 
 /* Style for the logo image */
 .logo {
-  width: 500px; /* Adjust the width to make it smaller */
+  width: 400px; /* Adjust the width to make it smaller */
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
