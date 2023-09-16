@@ -1,3 +1,4 @@
+![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 # Springfield Character Random Quotes Generator 
 ## Created with The Simpsons API from [JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI)
 ### This webapp is a work in progress, eventually I would like to turn it into a pokedex style list of all characters.
