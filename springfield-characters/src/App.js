@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './logo.png'
 import axios from 'axios';
 import { useState } from 'react';
 
@@ -18,9 +19,10 @@ function App() {
 
   return (
     <div className="app-background">
-      <h1>Springfield</h1>
+      <img src={logo} alt="logo" className="logo" />
+      
       <button className="button" onClick={getCharacter}>
-        Get Springfield Character
+        Grab a Springfield Character Quote!
       </button>
       {characterData && (
         <div className="character-card">
