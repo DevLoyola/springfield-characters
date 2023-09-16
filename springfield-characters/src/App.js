@@ -1,4 +1,3 @@
-
 import './App.css';
 import axios from 'axios';
 import { useState } from 'react';
@@ -24,7 +23,7 @@ function App() {
         Get Springfield Character
       </button>
       {characterData && (
-        <div>
+        <div className="character-card">
           <p>{characterData.character}</p>
           <p>{characterData.quote}</p>
           <img src={characterData.image} alt={characterData.character} />
