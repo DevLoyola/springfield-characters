@@ -1,4 +1,9 @@
-# Springfield Characters API
+# Springfield Character Random Quotes Generator 
+## Created with The Simpsons API from [JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI)
+### This webapp is a work in progress, eventually I would like to turn it into a pokedex style list of all characters.
+.
+.
+.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
