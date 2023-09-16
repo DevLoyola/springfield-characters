@@ -1,26 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 import axios from 'axios';
-import { useState } from 'react'
+import { useState } from 'react';
 
 function App() {
   const [characterData, setCharacterData] = useState(null);
 
   const getCharacter = () => {
     axios.get('https://thesimpsonsquoteapi.glitch.me/quotes')
-    .then(res => {
-      console.log(res.data[0]);
-      setCharacterData(res.data[0]);
-    })
-    .catch(err => {
-      console.log(err);
-    });
+      .then(res => {
+        console.log(res.data[0]);
+        setCharacterData(res.data[0]);
+      })
+      .catch(err => {
+        console.log(err);
+      });
   }
 
   return (
-    <div className="App">
+    <div className="app-background">
       <h1>Springfield</h1>
-      <button onClick={getCharacter}>Get Springfield Character</button>
+      <button className="button" onClick={getCharacter}>
+        Get Springfield Character
+      </button>
       {characterData && (
         <div>
           <p>{characterData.character}</p>
