@@ -23,8 +23,8 @@ function App() {
       <button onClick={getCharacter}>Get Springfield Character</button>
       {characterData && (
         <div>
-          <p>Character: {characterData.character}</p>
-          <p>Quote: {characterData.quote}</p>
+          <p>{characterData.character}</p>
+          <p>{characterData.quote}</p>
           <img src={characterData.image} alt={characterData.character} />
         </div>
       )}
