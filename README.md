@@ -4,6 +4,9 @@
 ### This webapp is a work in progress, eventually I would like to turn it into a pokedex style list of all characters.
 
 
+![Preview](springfield-characters/src/springfield_screenshot.png)
+.
+.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
